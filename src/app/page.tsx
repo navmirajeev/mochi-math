@@ -357,7 +357,7 @@ export default function Home() {
           </div>
           <div>
             <p className="brand-name">mochi.math</p>
-            <p className="brand-caption">a tiny universe of numbers</p>
+            <p className="brand-caption">Navmi Rajeev</p>
           </div>
         </div>
 
