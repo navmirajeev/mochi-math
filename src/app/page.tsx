@@ -25,6 +25,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import { evaluate, format, parse } from "mathjs";
+import GraphStudio from "./GraphStudio";
 
 type AppId = "calculator" | "formulas" | "graph" | "notes" | "settings";
 type CalculatorMode = "standard" | "scientific";
@@ -55,7 +56,7 @@ const apps: DesktopApp[] = [
   {
     id: "graph",
     name: "Graph Studio",
-    subtitle: "Coming soon",
+    subtitle: "Plot your functions",
     icon: Sigma,
     color: "lilac",
   },
@@ -768,21 +769,7 @@ export default function Home() {
             </div>
           )}
 
-          {activeApp === "graph" && (
-            <div className="utility-app coming-soon-app">
-              <div className="coming-soon-art"><Sigma size={48} /></div>
-              <p className="section-kicker">CURRENTLY IN THE WORKSHOP</p>
-              <h2>Graph Studio</h2>
-              <p>
-                Plot functions, explore curves and watch equations come to life.
-                This little app is on our roadmap.
-              </p>
-              <div className="coming-soon-tag"><Sparkles size={13} /> NEXT UP: FUNCTION PLOTTING</div>
-              <button className="primary-button" onClick={() => openApp("calculator")}>
-                <Calculator size={15} /> Back to calculator
-              </button>
-            </div>
-          )}
+          {activeApp === "graph" && <GraphStudio/>}
 
           {activeApp === "notes" && (
             <div className="utility-app scratchpad-app">
