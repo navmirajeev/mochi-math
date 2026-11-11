@@ -17,7 +17,7 @@ Welcome to **Mochi Math**, a cozy, pixel-inspired math playground where calculat
 
 Designed with soft colors, cute desktop aesthetics and interactive tools, Mochi Math turns your browser into a tiny workspace for exploring numbers and equations.
 
-## 🎀 What's inside?
+##  What's inside?
 
 ### 🧮 Calculator
 Your everyday math buddy! Perform calculations in a simple, interactive interface without leaving your little desktop.
@@ -32,7 +32,7 @@ Give your equations a home and watch their curves bloom!
 
 *Tiny tip: trigonometric functions use radians.*
 
-## 🍓 The aesthetic
+##  The aesthetic
 
 Inspired by cozy pixel-art desktops and pastel operating systems.
 
@@ -80,7 +80,7 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) and let the maths begin! ✿
 
-## 🧁 Project goals
+##  Project goals
 
 Mochi Math is a little experiment in making useful tools feel delightful. The goal is to combine practical mathematical functionality with a friendly interface that makes people want to explore, experiment and learn.
 
